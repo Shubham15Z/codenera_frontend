@@ -1,0 +1,36 @@
+#para1
+{
+    text-align: left;
+    text-decoration: green underline double;
+}
+
+#para2
+{
+    text-align: right;
+    text-decoration:rgb(223, 20, 20) overline dotted;
+}
+
+#para3
+{
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+#fontFamily
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fontSize
+{
+    font-size: 50px;
+}
+
+#para4
+{
+    line-height: 3;
+    text-transform: uppercase;
+}
