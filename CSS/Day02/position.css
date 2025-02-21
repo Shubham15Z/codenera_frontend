@@ -1,0 +1,50 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+div
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#d1
+{
+    background-color: aqua;
+    position: static;
+    top: 20px;
+    left: 30px;
+}
+
+#d2
+{
+    background-color: chocolate;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#d3
+{
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+#d4
+{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 40px;
+}
+
+#d5
+{
+    background-color: rgb(198, 38, 198);
+    position: sticky;
+    top: 30px
+}

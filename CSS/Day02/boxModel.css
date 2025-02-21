@@ -1,0 +1,44 @@
+body
+{
+    margin: 0;
+    
+}
+
+div
+{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* margin: 5px; */
+    
+}
+
+#d1
+{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px 20px 30px 20px;
+}
+
+#d2
+{
+    background-color: brown;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#d3
+{
+    background-color: cornflowerblue;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+#d4
+{
+    background-color: darkolivegreen;
+    padding-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}

@@ -1,0 +1,47 @@
+div
+{
+    background-color: coral;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: inline;
+}
+
+/* .disp
+{
+    background-color: coral;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: block;
+}  */
+
+.disp
+{
+    background-color: rgb(255, 63, 42, 0);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#d2
+{
+    background-color: rgba(255, 63, 42, 0.25);
+    /* display: none; */
+}
+
+#d3
+{
+    background-color: rgba(255, 63, 42, 0.5);
+}
+
+#d4
+{
+    background-color: rgba(255, 63, 42, 0.75);
+}
+
+#d5
+{
+    background-color: rgba(255, 63, 42, 1);
+}
