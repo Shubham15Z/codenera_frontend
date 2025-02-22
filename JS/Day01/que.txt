@@ -1,0 +1,10 @@
+1. Check if a number is greater than 100 using the ternary operator.  
+2. Determine if a number is a multiple of 10 using the ternary operator.  
+3. Check if a person is a teenager (age between 13 and 19) using the ternary operator.  
+4. Find the absolute value of a number using the ternary operator.  
+5. Check if a number is positive, negative, or zero using a nested ternary operator.  
+6. Determine if a number is three-digit (between 100 and 999) using the ternary operator.
+7. Check if a person is eligible for a senior citizen discount (age 60 or above) using the ternary operator.  
+8. Find the larger of three numbers using nested ternary operators.  
+9. Determine if a given string is empty or not using the ternary operator.  
+10. Check if a number is within the range 50 to 100 (inclusive) using the ternary operator.
