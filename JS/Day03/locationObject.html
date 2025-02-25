@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Location Object</h1>
+
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p id="i3"></p>
+    <p id="i4"></p>
+
+    <script>
+        document.getElementById("i1").innerHTML = " location : href = "+window.location.href;
+        document.getElementById("i2").innerHTML = "hostname = "+window.location.hostname;
+        document.getElementById("i3").innerHTML = "pathname = "+window.location.pathname;
+        document.getElementById("i4").innerHTML = "protocol = "+window.location.protocol;
+    </script>
+</body>
+</html>

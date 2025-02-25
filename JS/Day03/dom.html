@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Html DOM</h1>
+    <p id="l1">Lorem ipsum dolor sit amet.</p>
+    <p id="l2"></p>
+
+    <p class="c1">This is my class text</p>
+    <p class="c1">Hello Javascript</p>
+    
+
+    <script >
+        document.getElementById("l1").innerHTML="Hello from Js";
+
+        // const ele = document.getElementById("l1");
+        // document.getElementById("l2").innerHTML = "This is the text of l1 tag "+ele.innerHTML
+
+        //tag name
+
+        // const ele1 = document.getElementsByTagName("p");
+
+        // ele1[1].innerHTML = "This is text of l1 "+ele1[0].innerHTML;
+
+        // document.write(ele1);
+
+        const ele2 = document.getElementsByClassName("c1");
+
+        ele2[1].innerHTML = "This is my text "+ele2[0].innerHTML;
+
+
+    </script>
+</body>
+</html>

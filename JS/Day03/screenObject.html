@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Screen Object</h1>
+
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p id="i3"></p>
+    <p id="i4"></p>
+
+    <script>
+        document.getElementById("i1").innerHTML = " width : "+screen.width;
+        document.getElementById("i2").innerHTML = " Height : "+screen.height;
+        document.getElementById("i3").innerHTML = " Available Height : "+screen.availHeight;
+        document.getElementById("i4").innerHTML = " Available Width : "+screen.availWidth;
+    </script>
+</body>
+</html>

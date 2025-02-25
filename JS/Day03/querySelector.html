@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is demo of Query selector</p>
+
+    <p class="c1">This is my class text</p>
+
+    <p class="c1">Hello Javascript</p>
+
+    <p id="i1"></p>
+
+    <script>
+
+        const ele = document.querySelectorAll("p.c1");
+
+        ele[1].innerHTML = "This is my text "+ele[0].innerHTML;
+
+        document.write(ele)
+    </script>
+</body>
+</html>

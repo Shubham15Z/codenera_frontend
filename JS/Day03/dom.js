@@ -1,0 +1,1 @@
+document.getElementById("l1").innerHTML="Hello from Js";
