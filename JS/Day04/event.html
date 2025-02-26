@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Button Event</h1>
+    <button onclick="alert('Button is clicked...')">Onclick Event</button>
+    <br><br>
+    <!-- <button id="b1"> OnClick </button>
+    <script>
+        let btn = document.getElementById("b1");
+        btn.onclick = function ()
+        {
+            alert("Button on clicked...")
+        }
+    </script> -->
+
+    <!-- <button id="b1"> OnClick </button>
+    <script>
+        let btn = document.getElementById("b1");
+        btn.addEventListener("click", function()
+        {
+            alert("alert box generated using add event listener...")
+        });
+    </script> -->
+
+    <button id="b1">On Click Event</button>
+    <script>
+        let btn = document.getElementById("b1");
+        btn.addEventListener("click", function(event){
+            console.log(event);
+            console.log(event.clientX);
+            console.log(event.clientY);
+
+        })
+    </script>
+</body>
+</html>

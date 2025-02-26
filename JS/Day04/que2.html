@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1
+        {
+            display: none;
+        }
+        #d1
+        {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, possimus?</p>
+    <div id="d1">Hover Me</div>
+
+    <script>
+        let ele = document.getElementById("d1");
+
+        ele.addEventListener("mouseover", function(){
+            p1.style.display="block";
+        })
+
+        ele.addEventListener("mouseout", function(){
+            p1.style.display="none";
+        })
+    </script>
+</body>
+</html>
