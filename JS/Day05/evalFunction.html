@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eval function</h1>
+    <script>
+        //  const txt = `{
+        //         "name":"Ajay",
+        //         "age":"function(){return 20*2}",
+        //         "city":"Pune"
+        // }`;
+
+        // const obj = JSON.parse(txt);
+
+        // obj.age = eval("("+obj.age+")");
+        
+        // document.write(obj.name+"<br>");
+        // document.write(obj.age()+"<br>");
+        // document.write(obj.city+"<br>");
+        // document.write("<br>");
+
+        const txt1 = `{
+            "employee": [
+                {"firstname": "Ajay", "lastname": "Patil"},
+                {"firstname": "Rahul", "lastname": "Sharma"},
+                {"firstname": "Sneha", "lastname": "Verma"},
+                {"firstname": "Priya", "lastname": "Kumar"}
+            ]
+        }`;
+
+        const obj1 = JSON.parse(txt1);
+
+        // document.write(obj1.employee[0].firstname);
+
+        for (let i = 0; i < obj1.employee.length; i++)
+        {
+            document.write(obj1.employee[i].firstname+"  "+obj1.employee[i].lastname+"<br>")
+            // document.write(`${obj1.employee[i].firstname} ${obj1.employee[i].lastname}<br>`);
+        }
+
+    </script>
+</body>
+</html>
